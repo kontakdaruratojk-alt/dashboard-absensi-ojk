@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Absensi Kontak OJK 157",
+  "description": "Monitoring Kehadiran Petugas Kontak OJK 157 terhubung ke Supabase dengan ringkasan dan detail kehadiran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
