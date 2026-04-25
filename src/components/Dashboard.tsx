@@ -419,7 +419,7 @@ export function Dashboard() {
                 </select>
               </div>
               <div className="h-[350px] w-full min-h-[350px] min-w-0">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height={350} minWidth={1}>
                   <BarChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 20 }}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E5E7EB" />
                     <XAxis 
@@ -455,7 +455,7 @@ export function Dashboard() {
               <h3 className="text-sm font-bold text-slate-900 mb-4">Distribusi Status</h3>
               <div className="flex-grow flex items-center justify-center h-[300px] w-full min-w-0">
                 {filteredData.length > 0 ? (
-                  <ResponsiveContainer width="100%" height="100%">
+                  <ResponsiveContainer width="100%" height={300} minWidth={1}>
                     <PieChart>
                       <Pie
                         data={pieData}
